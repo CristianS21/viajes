@@ -432,3 +432,106 @@ background-color: #ffbe26;
         justify-content: center;
     }
 }
+
+/*CONTENEDOR 3 */
+
+.contenedor-3 {
+    width: 100%;
+    height: 100%;
+    background-color: #00c2c4;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-3 h2{
+    font-size: 36px;
+    color: #00949e;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contenedor-3 .contenedor-amarillo{
+    height: 425px;
+    display: flex;
+    padding: 30px;
+    background-color: #ffbe26;
+    margin: 0 150px;
+}
+
+.contenedor-3 .contenedor-amarillo .c3_contenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contenedor-3 .contenedor-amarillo .c3_contenido h3{
+  font-size: 2.8em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contenedor-3 .contenedor-amarillo .c3_contenido p{
+    font-size: 16px;
+    color: #505050;
+    margin-bottom: 25px;
+    font-size: 16px;;
+    line-height: 26px;}
+
+.contenedor-3 .contenedor-amarillo .c3_contenido a{
+    background-color: #00c2c4;
+    cursor: pointer;
+    letter-spacing: 5px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 8px 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    }
+
+    .contenedor-3 .contenedor-amarillo .c3_contenido a:hover{
+        background-color: #ffffff;
+        color: #00c2c4;
+    }
+
+.contenedor-3 .contenedor-amarillo .c3_img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-3 .contenedor-amarillo .c3_img img{
+    width: 400px;
+    height: 250px;
+    padding: 0 15px;
+}
+
+
+
+@media (max-width: 700px){
+
+
+    .contenedor-3 .contenedor-amarillo {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contenedor-3 .contenedor-amarillo .c3_contenido {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
