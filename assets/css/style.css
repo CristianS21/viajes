@@ -567,15 +567,15 @@ background-color: #ffbe26;
         .contenedor-4 h2{
             font-size: 36px;
             color: #00949e;
-            margin-bottom: 30px;
-            text-align: center;
-            padding-top: 40px;
+            text-align: start;
+            padding-top: 50px;
+            margin: 0 0 20px 80px;
         }
 
         .contenedor-4 .c4_datos{
             display: flex;
             justify-content: space-between;
-            padding: 35px 80px;
+            padding: 25px 80px;
         }
 
         .contenedor-4 .c4_datos .c4_3datos{
@@ -680,7 +680,99 @@ background-color: #ffbe26;
 
             .contenedor-4 .c4-contenedor .c4_contenido{
                 width: 80%;
+                text-align: center;
                 align-items: center;
             }
 
+            .contenedor-4 h2{
+                text-align: center;
+                margin-left: 0;
+            }
+
+            .contenedor-4 .c4_datos .c4_dato{
+                padding-right: 0;
+
+            }
     }
+
+
+    /*CONTENEDOT- 5*/
+
+    .contenedor-5 {
+        width: 100%;
+        background-color: #00c2c4;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenedor-5 .contenedor-footer {
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+        line-height: 50px;
+        padding: 40px 0;
+    }
+
+    .contenedor-5 .redes{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2em;
+    }
+    
+    .contenedor-5 .redes .red{
+        padding: 0 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #46dfe1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 10px;
+    }
+
+    .contenedor-5 .contenedor-footer .footer-column {
+        color: #ffffff;
+    }
+
+    @media (max-width: 750px){
+
+        .contenedor-5 {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+        }
+
+
+        .contenedor-5 .contenedor-footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+        }
+        
+        .contenedor-5 .contenedor-footer .footer-column{
+            font-size: 22px;
+        }
+    }
+
+
+
+    /*CONTENEDOR-6*/
+
+    .renglon_final{
+        width: 100%;
+        background-color: #1fa1a1;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    
